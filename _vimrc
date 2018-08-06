@@ -21,12 +21,13 @@ call dein#add('tpope/vim-surround', {'on_map': {'n' : ['cs', 'ds', 'ys'], 'x' : 
 call dein#add('tpope/vim-ragtag')
 call dein#add('ctrlpvim/ctrlp.vim', { 'on_map': '<C-p>', 'on_cmd' : 'CtrlPMRUFiles' })
 call dein#add('othree/html5.vim', { 'on_ft': 'html' })
-call dein#add('vim-scripts/mayansmoke', { 'script_type': 'colors/mayansmoke.vim' })
+" call dein#add('vim-scripts/mayansmoke', { 'script_type': 'colors/mayansmoke.vim' })
 call dein#add('ervandew/supertab')
 call dein#add('scrooloose/syntastic')
 call dein#add('tomtom/tcomment_vim', { 'on_map': 'gc', 'on_cmd' : 'TComment'})
 call dein#add('ap/vim-buftabline')
 call dein#add('easymotion/vim-easymotion')
+call dein#add('blertzupfgut/mayansmoke', { 'script_type': 'colors/mayansmoke.vim' })
 
 call dein#end()
 
